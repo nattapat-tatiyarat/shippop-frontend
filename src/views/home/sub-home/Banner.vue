@@ -11,8 +11,7 @@
           <img
             style="max-height: 400px"
             src="https://img.freepik.com/free-photo/light-gray-background-with-small-sparkles-texture-macro-focus-microtexture_328295-112.jpg?w=2000"
-          />
-        </v-slide-item> </v-slide-group
+          /> </v-slide-item></v-slide-group
     ></v-container>
   </v-app>
 </template>

@@ -1,16 +1,5 @@
-import axios from "axios";
-
-const PREFIX_PATH = "https://shippop-node.herokuapp.com";
+import httpClient from "../config/httpClient";
 
 export default {
-  getAll: (data) =>
-    axios({
-      method: "POST",
-      url: `${PREFIX_PATH}/user/get-all`,
-      headers: {
-        Accept: "application/json",
-        "Content-Type": "application/json",
-      },
-      data: JSON.stringify(data),
-    }),
+  getAll: (data) => httpClient.post("/user/get-all", JSON.stringify(data)),
 };

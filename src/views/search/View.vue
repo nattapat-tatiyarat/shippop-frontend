@@ -97,7 +97,7 @@ import {
   mdiCardsHeartOutline,
   mdiPoll,
 } from "@mdi/js";
-import ProductService from "../../services/product.service";
+import { ProductService } from "../../services";
 
 export default {
   data: () => ({
