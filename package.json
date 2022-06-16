@@ -13,7 +13,6 @@
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
     "vue-element-loading": "^2.0.2",
-    "vue-loading-overlay": "3.0",
     "vue-router": "^3.2.0",
     "vue-sticky": "^3.3.4",
     "vue-sticky-element": "^1.1.2",

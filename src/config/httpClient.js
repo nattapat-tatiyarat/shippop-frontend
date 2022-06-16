@@ -10,7 +10,6 @@ const httpClient = axios.create({
     Accept: "application/json",
     "Content-Type": "application/json",
   },
-  //   timeout: 5000,
 });
 
 httpClient.interceptors.request.use((req) => {
