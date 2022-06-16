@@ -1,10 +1,12 @@
 import axios from "axios";
 
+const PREFIX_PATH = "https://shippop-node.herokuapp.com";
+
 export default {
   getAll: (data) =>
     axios({
       method: "POST",
-      url: `http://localhost:3405/product/get-all`,
+      url: `${PREFIX_PATH}/product/get-all`,
       headers: {
         Accept: "application/json",
         "Content-Type": "application/json",
@@ -14,7 +16,7 @@ export default {
   getBy: (data) =>
     axios({
       method: "POST",
-      url: `http://localhost:3405/product/get-by`,
+      url: `${PREFIX_PATH}/product/get-by`,
       headers: {
         Accept: "application/json",
         "Content-Type": "application/json",
@@ -24,7 +26,7 @@ export default {
   getByName: (data) =>
     axios({
       method: "POST",
-      url: `http://localhost:3405/product/get-by-name`,
+      url: `${PREFIX_PATH}/product/get-by-name`,
       headers: {
         Accept: "application/json",
         "Content-Type": "application/json",
@@ -34,7 +36,7 @@ export default {
   getByStatus: (data) =>
     axios({
       method: "POST",
-      url: `http://localhost:3405/product/get-by-status`,
+      url: `${PREFIX_PATH}/product/get-by-status`,
       headers: {
         Accept: "application/json",
         "Content-Type": "application/json",
